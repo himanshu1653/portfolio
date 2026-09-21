@@ -1,0 +1,21 @@
+
+
+.all-projects-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 50px;
+  background-color: #071329;
+  
+}
+.harsh{
+  background-color: #071329;
+  min-height: 100vh;
+}
+
+.harsh h1{
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+}

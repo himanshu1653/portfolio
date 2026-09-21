@@ -1,0 +1,111 @@
+.contact-container{
+    background-color: #071329;
+    min-height: 90vh;
+    color: white;
+    margin-top:0px;
+    text-align: center;
+}
+#contact {
+  border: none !important;
+}
+
+.contcat-info{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+.contcat-info p{
+    font-size: 1.5rem;
+    color: white;
+    padding: 3px;
+}
+
+#contact form {
+  width: 500px;
+  max-width: 90%;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#contact input,
+#contact textarea {
+  padding: 12px;
+  border: 2px solid #3b82f6;
+  border-radius: 8px;
+  background-color: #202020;
+  color: white;
+  font-size: 1rem;
+  
+}
+
+#contact textarea {
+  height: 150px;
+  resize: vertical;
+}
+
+#contact button {
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background-color: #fa4c86;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+#contact button:hover {
+  background-color: #9333ea;
+}
+@media (max-width: 768px) {
+
+  #projects {
+    min-height: auto;
+    padding: 50px 15px;
+  }
+
+  #projects h1 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+
+  .tech-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    margin-top: 30px;
+  }
+
+  .project-card {
+    width: 90%;
+    max-width: 350px;
+    height: auto;
+    min-height: 410px;
+  }
+
+  .project-card img {
+    height: 180px;
+    object-fit: cover;
+  }
+
+  .project-button {
+    flex-wrap: wrap;
+  }
+
+  .project-button h3 {
+    padding-right: 0;
+  }
+
+  .project-live {
+    position: static;
+    margin-left: 10px;
+  }
+
+  .view-all-projects {
+    margin-top: 30px;
+  }
+}
