@@ -1,6 +1,7 @@
 import aapimage from '../assets/aapimage.jpeg'
 import './AllProjects.css'
 import './Final.css'
+import portfolio from '../assets/portfolio.png'
 import water from '../assets/water.png'
 import { FaGithub } from "react-icons/fa"
 import coderocks from '../assets/coderocks.png'
@@ -108,11 +109,11 @@ function AllProjects() {
                 </div>
                 <div className="project-card">
 
-                    <img src={water} alt="water" className="project-image" />
+                    <img src={portfolio} alt="portfolio" className="project-image" />
                     <div className="project-button">
-                        <h3>Auqabid</h3>
+                        <h3>portfolio</h3>
                         <div className="project-live">
-                            <a href="https://github.com/himanshu1653/watertkanker" ><FaGithub /><span>GITHUB</span></a>
+                            <a href="https://github.com/himanshu1653/portfolio" ><FaGithub /><span>GITHUB</span></a>
                             <a href="https://waterbase.netlify.app/" >live  </a>
                         </div>
 

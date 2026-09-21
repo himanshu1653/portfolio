@@ -2,6 +2,7 @@ import './Final.css'
 import aapimage from '../assets/aapimage.jpeg'
 import water from '../assets/water.png'
 import coderocks from '../assets/coderocks.png'
+import portfolio from '../assets/portfolio.png'
 import { Link } from 'react-router-dom'
 import { FaGithub } from "react-icons/fa"
 function Final() {
@@ -111,11 +112,11 @@ function Final() {
              
 <div className="project-card">
 
-                    <img src={aapimage} alt="aapimage" className="project-image" />
+                    <img src={portfolio} alt="portfolio" className="project-image" />
                     <div className="project-button">
-                        <h3>Civicconnect</h3>
+                        <h3>Portfolio</h3>
                         <div className="project-live">
-                            <a href="https://github.com/himanshu1653/problems" ><FaGithub /><span>GITHUB</span></a>
+                            <a href="https://github.com/himanshu1653/portfolio" ><FaGithub /><span>GITHUB</span></a>
                             <a href="https://dir.indiamart.com/mumbai/complaint-management.html ">live  </a>
                         </div>
 
