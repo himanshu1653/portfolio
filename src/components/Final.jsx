@@ -117,7 +117,7 @@ function Final() {
                         <h3>Portfolio</h3>
                         <div className="project-live">
                             <a href="https://github.com/himanshu1653/portfolio" ><FaGithub /><span>GITHUB</span></a>
-                            <a href="https://dir.indiamart.com/mumbai/complaint-management.html ">live  </a>
+                            <a href="https://himanshu-portfolio-1653.web.app " target="_blank">live  </a>
                         </div>
 
 

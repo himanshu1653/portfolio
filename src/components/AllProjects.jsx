@@ -114,7 +114,7 @@ function AllProjects() {
                         <h3>portfolio</h3>
                         <div className="project-live">
                             <a href="https://github.com/himanshu1653/portfolio" ><FaGithub /><span>GITHUB</span></a>
-                            <a href="https://waterbase.netlify.app/" >live  </a>
+                            <a href="https://himanshu-portfolio-1653.web.app"target="_blank" >live  </a>
                         </div>
 
 
